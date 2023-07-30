@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Scooter</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230730113841">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/header/logo.svg" alt="Logo">
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">PRODUCTS
+									<ul class="menu__sublist">
+										<li class="menu__subitem"><a href="#">submenu</a></li>
+										<li class="menu__subitem"><a href="#">submenu</a></li>
+										<li class="menu__subitem"><a href="#">submenu</a></li>
+										<li class="menu__subitem"><a href="#">submenu</a></li>
+									</ul>
+								</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">GALLERY</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">CONTACT</a></li>
+						</ul>
+
+					</nav>
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<form class="header__action action" action="#">
+					<button class="action__btn-in" type="submit">LOG IN</button>
+					<button data-da=".menu__body, 600" class="action__btn-up" type="submit">SIGN UP</button>
+				</form>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main-page">
+				<div class="main-page__container">
+					<div class="main-page__columns column">
+						<div class="column__content conrent-page">
+							<h1 class="conrent-page__title">Let's ride<span> the future.</span></h1>
+							<div class="conrent-page__text">Simple and sleek design with users in mind.</div>
+							<div class="conrent-page__actions actions-page">
+								<div class="actions-page__buy-now">
+									<a href="#" class="actions-page__btn"><svg>
+											<use xlink:href="img/icons/icons.svg#arrow-buy"></use>
+										</svg></a>
+									<a href="#">Buy now</a>
+								</div>
+								<div class="actions-page__video">
+									<div class="actions-page__video-text">
+										<span>Watch our</span>
+										<span>video how</span>
+										<span>it works</span>
+									</div>
+									<div class="actions-page__video-items">
+										<a href="#" class="actions-page__video-link">
+										</a>
+										<svg>
+											<use xlink:href="img/icons/icons.svg#icon-video"></use>
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column__image image-column">
+							<!-- Оболонка слайдера -->
+							<div class="image-column__slider swiper">
+								<!-- Частина слайдера, що рухається -->
+								<div class="image-column__wrapper swiper-wrapper">
+									<!-- Слайд 1-->
+									<div class="image-column__slide swiper-slide">
+										<div class="image-column__img-ibg">
+											<picture><source srcset="img/main-page/image-main.webp" type="image/webp"><img src="img/main-page/image-main.png" alt="Image"></picture>
+										</div>
+									</div>
+									<!-- Слайд 2-->
+									<div class="image-column__slide swiper-slide">
+										<div class="image-column__img-ibg">
+											<picture><source srcset="img/main-page/image-main.webp" type="image/webp"><img src="img/main-page/image-main.png" alt="Image"></picture>
+										</div>
+									</div>
+									<!-- Слайд 2-->
+									<div class="image-column__slide swiper-slide">
+										<div class="image-column__img-ibg">
+											<picture><source srcset="img/main-page/image-main.webp" type="image/webp"><img src="img/main-page/image-main.png" alt="Image"></picture>
+										</div>
+									</div>
+								</div>
+								<div class="image-column__pagination-btn btn-pagination">
+									<div class="swiper-pagination btn-pagination__pagin"></div>
+									<div class="btn-pagination__btn">
+										<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+										<button type="button" class="image-column__button-prev"><svg>
+												<use xlink:href="img/icons/icons.svg#arrow-header"></use>
+											</svg></button>
+										<button type="button" class="image-column__button-next"><svg>
+												<use xlink:href="img/icons/icons.svg#arrow-header"></use>
+											</svg></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__achievements achievements">
+				<div data-watch data-watch-once data-watch-threshold="0.3" class="achievements__container">
+					<div data-watch data-watch-once class="achievements__items counters">
+						<div data-digits-counter class="achievements__item counter__item achievements__item_lbs">105</div>
+						<div class="achievements__text">Net Weight</div>
+					</div>
+					<div data-watch data-watch-once class="achievements__items counters">
+						<div data-digits-counter class="achievements__item counter__item achievements__item_mph">26</div>
+						<div class="achievements__text">Top Speed</div>
+					</div>
+					<div data-watch data-watch-once class="achievements__items counters">
+						<div data-digits-counter class="achievements__item counter__item achievements__item_miles">38</div>
+						<div class="achievements__text">Max Range</div>
+					</div>
+					<div data-watch data-watch-once class="achievements__items counters">
+						<div data-digits-counter class="achievements__item counter__item achievements__item_nm">89</div>
+						<div class="achievements__text">Max Torques</div>
+					</div>
+					<div data-watch data-watch-once class="achievements__items counters">
+						<div data-digits-counter class="achievements__item counter__item achievements__item_slope">22%</div>
+						<div class="achievements__text">Hill Climbing</div>
+					</div>
+					<div class="achievements__items">
+						<div class="achievements__item">2x</div>
+						<div class="achievements__text">Hydralic Disc Brakes</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__information information">
+				<div data-watch data-watch-once data-watch-threshold="0.2" class="information__container">
+					<h2 class="information__title">Product Information</h2>
+					<p class="information__text">Our Scooter has following unique design and technology features:</p>
+					<div class="information__columns">
+						<div data-watch data-watch-once data-watch-threshold="0.3" class="information__column-image-ibg">
+							<picture><source srcset="img/information/01.webp" type="image/webp"><img src="img/information/01.png" alt="Image"></picture>
+						</div>
+						<div class="information__column-info">
+							<ul class="information__list">
+								<li class="information__item">Lightweight aircraft grade aluminium frame</li>
+								<li data-watch data-watch-once data-watch-threshold="0.3" class="information__item">Car grade lithium battery</li>
+								<li data-watch data-watch-once data-watch-threshold="0.3" class="information__item">Self-balanced</li>
+								<li data-watch data-watch-once data-watch-threshold="0.3" class="information__item">Plug n play</li>
+								<li data-watch data-watch-once data-watch-threshold="0.3" class="information__item">Quick release adapter</li>
+								<li data-watch data-watch-once data-watch-threshold="0.3" class="information__item">RFID key card</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__efficiency-motor motor-efficiency">
+				<div data-watch data-watch-once data-watch-threshold="0.2" class="motor-efficiency__container">
+					<h2 class="motor-efficiency__title">High Efficiency Motor</h2>
+					<p class="motor-efficiency__text">More torque for powerful riding with 22% maximum hill climbing
+						capability.</p>
+					<div class="motor-efficiency__image">
+						<picture><source srcset="img/motor-efficiency/image.webp" type="image/webp"><img src="img/motor-efficiency/image.png" alt="Image"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="page__accessories accessories">
+				<div data-watch data-watch-once data-watch-threshold="0.2" class="accessories__container">
+					<h2 class="accessories__title">Multiple Accessories</h2>
+					<p class="accessories__text">There are multiple modes for the scooter for your multiple needs.</p>
+					<div class="accessories__first-block block-first">
+						<div class="block-first__column-left left-column">
+							<h3 class="left-column__title">Golf Bag Rock</h3>
+							<ul class="left-column__list">
+								<li class="left-column__item">Material : Aluminium alloy</li>
+								<li class="left-column__item">Color : Black</li>
+								<li class="left-column__item">Capacity : 45lbs</li>
+								<li class="left-column__item">Ease : Steady & adjustable</li>
+							</ul>
+						</div>
+						<div class="block-first__column-center center-column">
+							<div class="center-column__image">
+								<picture><source srcset="img/accessories/01.webp" type="image/webp"><img src="img/accessories/01.png" alt="Image"></picture>
+							</div>
+						</div>
+						<div class="block-first__column-right right-column">
+							<div class="right-column__image">
+								<picture><source srcset="img/accessories/02.webp" type="image/webp"><img src="img/accessories/02.png" alt="Image"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="accessories__last-block block-last">
+						<div class="block-last__column-left left-column">
+							<div class="left-column__image">
+								<picture><source srcset="img/accessories/03.webp" type="image/webp"><img src="img/accessories/03.png" alt="Image"></picture>
+							</div>
+						</div>
+						<div class="block-last__column-center center-column">
+							<div class="center-column__image">
+								<picture><source srcset="img/accessories/04.webp" type="image/webp"><img src="img/accessories/04.png" alt="Image"></picture>
+							</div>
+						</div>
+						<div class="block-last__column-right right-column">
+							<h3 class="right-column__title">Shopping Rack</h3>
+							<ul class="right-column__list">
+								<li class="right-column__item">Material : Aluminium alloy</li>
+								<li class="right-column__item">Color : Black</li>
+								<li class="right-column__item">Capacity : 45lbs</li>
+								<li class="right-column__item">Ease : Steady & adjustable</li>
+							</ul>
+						</div>
+					</div>
+					<a href="#" class="accessories__btn-bottom"><span>More Accessories Coming Soon</span></a>
+				</div>
+			</section>
+			<section class="page__gallery gallerey">
+				<div data-watch data-watch-once data-watch-threshold="0.1" class="gallerey__container">
+					<h2 class="accessories__title">Gallery</h2>
+					<p class="accessories__text">View gallery of our products and make yourself satisfied with our creation.
+					</p>
+					<div class="gallerey__columns columns-gallery">
+						<div class="columns-gallery__column-left left-column">
+							<div class="left-column__image-ibg">
+								<picture><source srcset="img/gallerey/01.webp" type="image/webp"><img src="img/gallerey/01.png" alt="Image"></picture>
+							</div>
+							<div class="left-column__buttons">
+								<a href="#" class="left-column__btn-link">Battery Images</a>
+								<a href="#" class="left-column__btn-link">Spare Parts Images</a>
+								<a href="#" class="left-column__btn-link">Charging Cable Images</a>
+							</div>
+						</div>
+						<div class="columns-gallery__column-right">
+							<div class="columns-gallery__column-right right-column">
+								<div class="right-column__image-ibg">
+									<picture><source srcset="img/gallerey/02.webp" type="image/webp"><img src="img/gallerey/02.png" alt="Image"></picture>
+								</div>
+								<div class="right-column__image-ibg">
+									<picture><source srcset="img/gallerey/03.webp" type="image/webp"><img src="img/gallerey/03.png" alt="Image"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+			<section class="page__colors colors">
+				<div data-watch data-watch-once data-watch-threshold="0.2" class="colors__container">
+					<h2 class="colors__title-color">Colors</h2>
+					<p class="colors__text-color">Checkout our products colors.</p>
+					<div data-tabs class="colors">
+						<div data-tabs-body class="colors__content">
+							<div class="colors__body">
+								<picture><source srcset="img/colors/white-main.webp" type="image/webp"><img src="img/colors/white-main.png" alt="Image"></picture>
+							</div>
+							<div class="colors__body">
+								<picture><source srcset="img/colors/blue.webp" type="image/webp"><img src="img/colors/blue.png" alt="Image"></picture>
+							</div>
+							<div class="colors__body">
+								<picture><source srcset="img/colors/green.webp" type="image/webp"><img src="img/colors/green.png" alt="Image"></picture>
+							</div>
+							<div class="colors__body">
+								<picture><source srcset="img/colors/red.webp" type="image/webp"><img src="img/colors/red.png" alt="Image"></picture>
+							</div>
+							<div class="colors__body">
+								<picture><source srcset="img/colors/grey.webp" type="image/webp"><img src="img/colors/grey.png" alt="Image"></picture>
+							</div>
+						</div>
+						<nav data-tabs-titles class="colors__navigation">
+							<button type="button" class="colors__title _tab-active"></button>
+							<button type="button" class="colors__title"><picture><source srcset="img/colors/1.webp" type="image/webp"><img src="img/colors/1.png" alt="Image"></picture></button>
+							<button type="button" class="colors__title"><picture><source srcset="img/colors/2.webp" type="image/webp"><img src="img/colors/2.png" alt="Image"></picture></button>
+							<button type="button" class="colors__title"><picture><source srcset="img/colors/3.webp" type="image/webp"><img src="img/colors/3.png" alt="Image"></picture></button>
+							<button type="button" class="colors__title"><picture><source srcset="img/colors/4.webp" type="image/webp"><img src="img/colors/4.png" alt="Image"></picture></button>
+						</nav>
+					</div>
+				</div>
+			</section>
+			<section class="page__testimonials testimonials">
+				<div data-watch data-watch-once data-watch-threshold="0.2" class="testimonials__container">
+					<h2 class="testimonials__title">Testimonials</h2>
+					<!-- Оболонка слайдера -->
+					<div class="testimonials__slider slider-testimonials swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="testimonials__wrapper swiper-wrapper">
+							<!-- Слайд1 -->
+							<div class="testimonials__slide swiper-slide">
+								<div class="slider-testimonials__carts">
+									<article class="slider-testimonials__cart">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">5</div>
+										</div>
+										<p class="slider-testimonials__text">
+											On the other hand, we denounce with righteousindignation and dislike men who are so
+											beguiled and demoralized by the charms of pleasure.
+										</p>
+										<div class="slider-testimonials__name-menter menter-name">
+											<div class="menter-name__image">
+												<picture><source srcset="img/testimonials/01.webp" type="image/webp"><img src="img/testimonials/01.png" alt="Image"></picture>
+											</div>
+											<div class="menter-name__items">
+												<div class="menter-name__surname">Serhiy Hipskyy</div>
+												<div class="menter-name__profession">CEO Universal</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+							<!-- Слайд2 -->
+							<div class="testimonials__slide swiper-slide">
+								<div class="slider-testimonials__carts">
+									<article class="slider-testimonials__cart">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">5</div>
+										</div>
+										<p class="slider-testimonials__text">Nam libero tempore, cum soluta nobis est eligendi
+											optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+										<div class="slider-testimonials__name-menter menter-name">
+											<div class="menter-name__image">
+												<picture><source srcset="img/testimonials/02.webp" type="image/webp"><img src="img/testimonials/02.png" alt="Image"></picture>
+											</div>
+											<div class="menter-name__items">
+												<div class="menter-name__surname">Justus Menke</div>
+												<div class="menter-name__profession">Justus Menke</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+							<!-- Слайд3 -->
+							<div class="testimonials__slide swiper-slide">
+								<div class="slider-testimonials__carts">
+									<article class="slider-testimonials__cart">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">5</div>
+										</div>
+										<p class="slider-testimonials__text">At vero eos et accusamus et iusto odio dignissimos
+											ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+										<div class="slider-testimonials__name-menter menter-name">
+											<div class="menter-name__image">
+												<picture><source srcset="img/testimonials/03.webp" type="image/webp"><img src="img/testimonials/03.png" alt="Image"></picture>
+											</div>
+											<div class="menter-name__items">
+												<div class="menter-name__surname">Britain Eriksen</div>
+												<div class="menter-name__profession">CEO Universal</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+							<!-- Слайд4 -->
+							<div class="testimonials__slide swiper-slide">
+								<div class="slider-testimonials__carts">
+									<article class="slider-testimonials__cart">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">5</div>
+										</div>
+										<p class="slider-testimonials__text">On the other hand, we denounce with righteous
+											indignation and dislike men who are so beguiled and demoralized by the charms of
+											pleasure.</p>
+										<div class="slider-testimonials__name-menter menter-name">
+											<div class="menter-name__image">
+												<picture><source srcset="img/testimonials/01.webp" type="image/webp"><img src="img/testimonials/01.png" alt="Image"></picture>
+											</div>
+											<div class="menter-name__items">
+												<div class="menter-name__surname">Serhiy Hipskyy</div>
+												<div class="menter-name__profession">CEO Universal</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+							<!-- Слайд5 -->
+							<div class="testimonials__slide swiper-slide">
+								<div class="slider-testimonials__carts">
+									<article class="slider-testimonials__cart">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">5</div>
+										</div>
+										<p class="slider-testimonials__text">On the other hand, we denounce with righteous
+											indignation and dislike men who are so beguiled and demoralized by the charms of
+											pleasure.</p>
+										<div class="slider-testimonials__name-menter menter-name">
+											<div class="menter-name__image">
+												<picture><source srcset="img/testimonials/01.webp" type="image/webp"><img src="img/testimonials/01.png" alt="Image"></picture>
+											</div>
+											<div class="menter-name__items">
+												<div class="menter-name__surname">Serhiy Hipskyy</div>
+												<div class="menter-name__profession">CEO Universal</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="testimonials__btn-swiper">
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<button type="button" class="testimonials__button-prev"><svg>
+								<use xlink:href="img/icons/icons.svg#arrow-right"></use>
+							</svg></button>
+						<button type="button" class="testimonials__button-next"><svg>
+								<use xlink:href="img/icons/icons.svg#arrow-right"></use>
+							</svg></button>
+					</div>
+				</div>
+			</section>
+			<section class="page__newsletter newsletter">
+				<div class="newsletter__container">
+					<h2 class="newsletter__title">Subscribe To Newsletter</h2>
+					<p class="newsletter__text">Subscribe to our newsletter to get amazing offers in future.</p>
+					<form action="files/sendmail/sendmail.php" method="POST">
+						<input autocomplete="off" type="text" name="form[]" placeholder="Enter your email." data-required="email" class="newsletter__input input">
+						<button type="submit" class="newsletter__button">Send</button>
+					</form>
+				</div>
+			</section>
+		</main>
+	</div>
+	<footer data-spollers="470, max" data-one-spoller class="footer">
+		<div class="footer__container">
+			<div class="footer__colums colums-footer">
+				<div class="colums-footer__image">
+					<div class="colums-footer__img-main">
+						<picture><source srcset="img/footer/image.webp" type="image/webp"><img src="img/footer/image.png" alt="Image"></picture>
+					</div>
+				</div>
+				<div class="colums-footer__content">
+					<div class="spollers">
+						<details data-spoller class="spollers__item">
+							<summary class="spollers__title">About</summary>
+							<div class="spollers__inner">
+								<a href="#" class="spollers__body">Company</a>
+								<a href="#" class="spollers__body">Teams</a>
+								<a href="#" class="spollers__body">Profile</a>
+								<a href="#" href="#" class="spollers__body">Careers</a>
+							</div>
+						</details>
+						<details data-spoller class="spollers__item">
+							<summary class="spollers__title">Resources</summary>
+							<div class="spollers__inner">
+								<a href="#" class="spollers__body">Contact</a>
+								<a href="#" class="spollers__body">FQA Application</a>
+								<a href="#" class="spollers__body">Features</a>
+							</div>
+						</details>
+						<details data-spoller class="spollers__item">
+							<summary class="spollers__title">Legals</summary>
+							<div class="spollers__inner">
+								<a href="#" class="spollers__body">Copyright</a>
+								<a href="#" class="spollers__body">Privacy Policy</a>
+								<a href="#" class="spollers__body">Terms</a>
+								<div class="spollers__social">
+									<a href="#"><svg>
+											<use xlink:href="img/icons/icons.svg#facebook"></use>
+										</svg></a>
+									<a href="#"><svg>
+											<use xlink:href="img/icons/icons.svg#twitter"></use>
+										</svg></a>
+									<a href="#"><svg>
+											<use xlink:href="img/icons/icons.svg#instagram"></use>
+										</svg></a>
+								</div>
+							</div>
+						</details>
+					</div>
+				</div>
+			</div>
+			<div class="footer__reserved">© Copyright 2021. All rights reserved.</div>
+		</div>
+	</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230730113841"></script>
+</body>
+
+</html>
